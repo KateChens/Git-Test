@@ -1,0 +1,80 @@
+D:\Academy\Git-Test\Git-Test>git status
+On branch main
+Your branch is ahead of 'origin/main' by 8 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+-------------------------------------------------------------------------
+
+D:\Academy\Git-Test\Git-Test>git branch
+  TestBranch
+* main
+
+-------------------------------------------------------------------------
+
+D:\Academy\Git-Test\Git-Test>git log
+commit a2152d11af6ae1642981cf6adabc08d416b67d4f (HEAD -> main, Git-Test/main)
+Author: KateChens <33991669+KateChens@users.noreply.github.com>
+Date:   Sat Oct 14 13:25:11 2023 +0300
+
+    Rename web-test to web-test.txt
+
+commit 0ce938bc246008167f2bcbb08fa35993e9fea001
+Author: KateChens <33991669+KateChens@users.noreply.github.com>
+Date:   Sat Oct 14 13:24:47 2023 +0300
+
+    Create file web-test in browser git
+
+commit dd019a0a43c305c62e565018e792702cfbee914c
+Merge: 4e41187 161a773
+Author: katya <katya31195@gmail.com>
+Date:   Sat Oct 14 13:22:42 2023 +0300
+
+    Conflict done in file index.html
+
+commit 4e41187d0306cf465c54e6c9968a50a5c0aeb799
+Author: katya <katya31195@gmail.com>
+Date:   Sat Oct 14 13:20:53 2023 +0300
+
+    Add changes on main branch in index.html
+
+commit 161a7739b3cafcffbd136f91138a8a40111901c6 (Git-Test/TestBranch, TestBranch)
+Author: katya <katya31195@gmail.com>
+Date:   Sat Oct 14 13:16:27 2023 +0300
+
+    Add third chagges to file index.html
+
+commit 831dea4fcd5bbcc4efb068bdc18598988a499540
+Author: katya <katya31195@gmail.com>
+Date:   Sat Oct 14 13:15:48 2023 +0300
+
+    Add second chages to file index.html
+
+commit c3eef6407eecbfb29f705829b8c3dd97973fb716
+Author: katya <katya31195@gmail.com>
+Date:   Sat Oct 14 13:15:00 2023 +0300
+
+    Add chages to file index.html
+
+commit 9c8983e142f5c58082d887bdc15e98d3da0a2fac
+Author: katya <katya31195@gmail.com>
+Date:   Sat Oct 14 13:13:07 2023 +0300
+
+    Create new file index.html
+
+commit 10a87435cfcf6f67cd018c573c734a57d9c92325 (origin/main, origin/HEAD)
+Author: KateChens <33991669+KateChens@users.noreply.github.com>
+Date:   Sat Oct 14 13:09:23 2023 +0300
+
+    Initial commit
+
+--------------------------------------------------------------------------------------------
+
+D:\Academy\Git-Test\Git-Test>git log --merges
+commit dd019a0a43c305c62e565018e792702cfbee914c
+Merge: 4e41187 161a773
+Author: katya <katya31195@gmail.com>
+Date:   Sat Oct 14 13:22:42 2023 +0300
+
+    Conflict done in file index.html
